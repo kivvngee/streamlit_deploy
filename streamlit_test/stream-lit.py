@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from nltk.tokenize import RegexpTokenizer
+import nltk
+nltk.download('punkt')
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
