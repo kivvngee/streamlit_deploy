@@ -7,7 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # CSV 파일 경로 설정
-file_path = 'C:\\streamlit_test\\TB_LM_OUT_RATE_S_dt_with_diss_nm_2.csv'
+# file_path = 'C:\\streamlit_test\\TB_LM_OUT_RATE_S_dt_with_diss_nm_2.csv'
+file_path = 'TB_LM_OUT_RATE_S_dt_with_diss_nm_2.csv'
 
 # 데이터 로드
 data = pd.read_csv(file_path)
