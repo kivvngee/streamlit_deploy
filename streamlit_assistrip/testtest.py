@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Get query parameters
-params = st.experimental_get_query_params()
+params = st.query_params()
 
 # Extract data
 name = params.get("name", [""])[0]
